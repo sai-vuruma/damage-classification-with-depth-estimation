@@ -1,0 +1,11 @@
+names:
+- damage_0
+- damage_1
+- damage_2
+- damage_3
+- damage_4
+- damage_5
+nc: 6
+test: ./images/test
+train: ./images/train
+val: ./images/val
