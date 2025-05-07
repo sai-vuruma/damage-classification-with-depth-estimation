@@ -6,6 +6,7 @@ The repo is organized as follows:
   <li>The dataset and dataset_depth folders contain the processed dataset. They are organized so that the YOLO and Faster R-CNN models can access and process info easily.</li>
   <li>The main.py file calls the processing.py file to generate the dataset folder. Whereas the dataset_depth folder is created within a Colab notebook as it uses the MiDaS model.</li>
   <li>The Yolo.ipynb file contains the YOLO code. And the Faster R-CNN.ipynb file contains the Faster R-CNN code. Both files are Colab notebooks as the models are computationally intensive and need GPUs.</li>
+  <li>The runs folder contains the train and test performance of the YOLO model. We are excluding results of the Faster R-CNN model as it is not performing as well as the Yolo model. The code used for Faster R-CNN however is available in the Faster R-CNN.ipynb file.</li>
 </ul>
 
 Follow these instructions to execute the code and replicate the results:
